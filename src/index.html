@@ -12,7 +12,7 @@
   <!-- base url -->
   <base href="<%= htmlWebpackPlugin.options.metadata.baseUrl %>">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
 
   <% if (webpackConfig.htmlElements.headTags) { %>
     <!-- Configured Head Tags  -->
@@ -37,10 +37,21 @@
 
               <!-- CSS will be injected by webpack here -->
               <!-- Preload link tags will be injected by webpack here -->
+              <style>
+                .Site {
+                  display: flex;
+                  min-height: 100vh;
+                  flex-direction: column;
+                }
 
+                .Site-content {
+                  flex: 1;
+                }
+
+              </style>
 </head>
 
-<body>
+<body class="Site">
 
   <app>
     Loading...
