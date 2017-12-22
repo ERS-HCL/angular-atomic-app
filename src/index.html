@@ -11,11 +11,9 @@
   <meta name="description" content="<%= htmlWebpackPlugin.options.title %>">
   <!-- base url -->
   <base href="<%= htmlWebpackPlugin.options.metadata.baseUrl %>">
-  <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   
-  <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet" >
-  <link href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" >
-  -->
+
   <% if (webpackConfig.htmlElements.headTags) { %>
     <!-- Configured Head Tags  -->
     <%= webpackConfig.htmlElements.headTags %>
@@ -47,8 +45,6 @@
   <app>
     Loading...
   </app>
-  <script src="assets/js/jquery-3.2.1.slim.min.js" ></script>
-  <script src="assets/js/bootstrap-3.3.7/dist/js/bootstrap.min.js" defer async></script>
   <!-- Scripts will be injected by webpack here -->
 </body>
 
