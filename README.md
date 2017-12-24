@@ -14,16 +14,16 @@ This is a sample for building an Angular 5 web app based on the atomic web desig
 
 # Demo
 * There are two demo applications created 
-** [Bootstrap 3.x](https://tutor-wolf-15383.netlify.com)
-** [Bulma 0.6.x](https://boxer-norman-10044.netlify.com)
+  * [Bootstrap 3.x](https://tutor-wolf-15383.netlify.com)
+  * [Bulma 0.6.x](https://boxer-norman-10044.netlify.com)
 
 # Source Code Branches
 * The main branch has the Bootstrap 3.x version (available also on the bootstrap branch).
-  * [Atomic Web App](https://github.com/ERS-HCL/angular-atomic-app/tree/bootstrap3)
-  * [Atomic Web Library](https://github.com/ERS-HCL/angular-atomic-library/tree/bootstrap3)
+  * [Atomic Web App (bootstrap)](https://github.com/ERS-HCL/angular-atomic-app/tree/bootstrap3)
+  * [Atomic Web Library (bootstrap)](https://github.com/ERS-HCL/angular-atomic-library/tree/bootstrap3)
 * The bulma branch has the Bulma 0.6.x version (available also on the bootstrap branch).
-  * [Atomic Web App](https://github.com/ERS-HCL/angular-atomic-app/tree/bulma)
-  * [Atomic Web Library](https://github.com/ERS-HCL/angular-atomic-library/tree/bulma)
+  * [Atomic Web App (bulma)](https://github.com/ERS-HCL/angular-atomic-app/tree/bulma)
+  * [Atomic Web Library (bulma)](https://github.com/ERS-HCL/angular-atomic-library/tree/bulma)
 
 
 # Atomic Library Dependency
